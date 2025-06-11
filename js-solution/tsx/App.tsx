@@ -1,6 +1,8 @@
 import { NavBar } from './NavBar';
 import { NewEntry } from './NewEntry';
-import './App.css';
+import '../css/layout.css';
+import '../css/reset.css';
+import '../css/styles.css';
 
 export default function App() {
   return (
