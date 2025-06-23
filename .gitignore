@@ -1,6 +1,6 @@
 **/node_modules/**
 node_modules
-z-js-solution/js
+z-js-solution
 **/.DS_Store
 **/*.log
 **/.env
