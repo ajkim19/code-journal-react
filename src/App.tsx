@@ -1,9 +1,9 @@
 import { Route, Routes } from 'react-router-dom';
-import { NavBar } from '../components/NavBar';
-import { Entries } from './Entries';
-import { NewEntry } from './NewEntry';
+import { NavBar } from './components/NavBar';
+import { Entries } from './pages/Entries';
+import { NewEntry } from './pages/NewEntry';
 
-export default function App() {
+export function App() {
   return (
     <Routes>
       <Route path="/" element={<NavBar />}>
